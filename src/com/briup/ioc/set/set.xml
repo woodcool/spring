@@ -7,6 +7,9 @@
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context-3.2.xsd">
     
+    
+    
+    
     <!-- 知识点1:
     	spring容器怎么管理我们配置的对象:
     		默认情况下,spring容器用单例的模式来管理这些对象.

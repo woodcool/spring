@@ -38,6 +38,7 @@ public class IocTest {
 					new ClassPathXmlApplicationContext(path);
 			
 			
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
