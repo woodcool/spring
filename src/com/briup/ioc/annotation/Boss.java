@@ -1,8 +1,5 @@
 package com.briup.ioc.annotation;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
-
 public class Boss {
 	private String name;
 	private Car car;
@@ -45,12 +42,10 @@ public class Boss {
 		this.office = office;
 	}
 	
-	@PostConstruct
 	public void init(){
 		System.out.println("初始化..");
 	}
 	
-	@PreDestroy
 	public void destory(){
 		System.out.println("销毁...");
 	}
