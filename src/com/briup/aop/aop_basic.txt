@@ -22,19 +22,22 @@ proxy		代理对象
 
 wave		织入
 
-通知的类型：
 
-    前置通知（Before advice）： 
-    	在某连接点（join point）之前执行的通知
+advice(通知)的类型:
 
-    返回后通知（After returning advice）： 
-    	在某连接点（join point）正常完成后执行的通知：例如，一个方法没有抛出任何异常，正常返回。
+        前置通知(Before advice): 
+    		在某些连接点(join point)之前执行的通知
 
-    抛出异常后通知（After throwing advice）： 
-    	在方法抛出异常退出时执行的通知。
+        返回后通知(After returning advice): 
+    		在某些连接点(join point)正常完成后执行的通知(方法正常结束,没有异常)
 
-    后通知（After (finally) advice）： 
-    	当某连接点退出的时候执行的通知
+        抛出异常后通知(After throwing advice): 
+    		在某些连接点(join point)抛出异常退出时执行的通知
 
-    环绕通知（Around Advice）： 
-    	包围一个连接点（join point）的通知，例如事务的处理,就需要这样的通知,因为事务需要在方法前开启,在方法后提交
+        后通知(After (finally) advice): 
+    		当某些连接点(join point)退出的时候执行的通知
+
+        环绕通知(Around Advice): 
+    		包围一个连接点(join point)的通知,例如事务的处理,就需要这样的通知,因为事务需要在方法前开启,在方法后提交,以及方法抛出异常时候回滚
+
+	注:在spring中,连接点(join point)指的就是方法
