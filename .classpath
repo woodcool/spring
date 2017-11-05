@@ -13,5 +13,19 @@
 	<classpathentry kind="lib" path="jar/spring-context-support-3.2.4.RELEASE-javadoc.jar"/>
 	<classpathentry kind="lib" path="jar/spring-core-3.2.4.RELEASE.jar"/>
 	<classpathentry kind="lib" path="jar/spring-expression-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jar_jdbc/c3p0-0.9.5.2.jar"/>
+	<classpathentry kind="lib" path="jar_jdbc/c3p0-oracle-thin-extras-0.9.5.2.jar"/>
+	<classpathentry kind="lib" path="jar_jdbc/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="jar_jdbc/commons-pool.jar"/>
+	<classpathentry kind="lib" path="jar_jdbc/mchange-commons-java-0.2.11.jar"/>
+	<classpathentry kind="lib" path="jar_jdbc/spring-jdbc-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jar_jdbc/spring-tx-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jar_mybatis/mybatis-3.3.0.jar"/>
+	<classpathentry kind="lib" path="jar_mybatis/mybatis-spring-1.2.2.jar"/>
+	<classpathentry kind="lib" path="jar_aop/aopalliance.jar"/>
+	<classpathentry kind="lib" path="jar_aop/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="jar_aop/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="jar_aop/spring-aspects-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jar_aop/spring-instrument-3.2.4.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
