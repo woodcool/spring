@@ -13,5 +13,10 @@
 	<classpathentry kind="lib" path="jar/spring-context-support-3.2.4.RELEASE-javadoc.jar"/>
 	<classpathentry kind="lib" path="jar/spring-core-3.2.4.RELEASE.jar"/>
 	<classpathentry kind="lib" path="jar/spring-expression-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jar_aop/aopalliance.jar"/>
+	<classpathentry kind="lib" path="jar_aop/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="jar_aop/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="jar_aop/spring-aspects-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jar_aop/spring-instrument-3.2.4.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
