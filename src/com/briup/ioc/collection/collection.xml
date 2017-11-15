@@ -8,44 +8,4 @@
            http://www.springframework.org/schema/context/spring-context-3.2.xsd">
         
     
-    <!-- 给对象中注入集合 -->
-    <bean name="student" class="com.briup.bean.Student">
-    	<property name="list">
-    		<list>
-    			<value>zs</value>
-    			<value>ww</value>
-    			<value>zl</value>
-    		</list>
-    	</property>
-    	
-    	<property name="set">
-    		<set>
-    			<value>tom</value>
-    			<value>lily</value>
-    			<value>Carl</value>
-    			<value>terry</value>
-    		</set>
-    	</property>
-    	
-    	<property name="map">
-    		<map>
-    			<entry key="1" value="zhangsan"></entry>
-    			<entry key="2" value="lisi"></entry>
-    			<entry key="3" value="wangwu"></entry>
-    			<entry key="4" value="zhaoliu"></entry>
-    		</map>
-    	</property>
-    	
-    	<property name="prop">
-    		<props>
-    			<prop key="a">apple</prop>
-    			<prop key="b">blue</prop>
-    			<prop key="c">car</prop>
-    			<prop key="d">dog</prop>
-    		</props>
-    	</property>
-    	
-    </bean>
-    
-    
 </beans>
