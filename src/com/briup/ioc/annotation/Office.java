@@ -1,7 +1,7 @@
 package com.briup.ioc.annotation;
 
 public class Office {
-	private String num = "001";
+	private String num;
 	
 	public Office(){
 		

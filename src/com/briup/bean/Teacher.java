@@ -6,7 +6,7 @@ public class Teacher {
 	private Student student;
 	
 	
-	public Teacher() {}
+	public Teacher(){}
 	
 	public Teacher(Student student) {
 		this.student = student;
@@ -26,8 +26,6 @@ public class Teacher {
 	public Student getStudent() {
 		return student;
 	}
-	//byName方式: 方法名:setStudent ---> property名字:student
-	//byType方式:
 	public void setStudent(Student student) {
 		this.student = student;
 	}

@@ -1,8 +1,8 @@
 package com.briup.ioc.annotation;
 
 public class Car {
-	private double price;
 	private String name;
+	private double price;
 	
 	public Car(){
 		

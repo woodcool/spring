@@ -21,17 +21,7 @@ public class Student {
 		this.name = name;
 		this.age = age;
 	}
-	public Student() {
-		
-		System.out.println("in Student()");
-		
-	}
-	public void init(){
-		System.out.println("in init() of Student");
-	}
-	public void end(){
-		System.out.println("in end() of Student");
-	}
+	public Student(){}
 	
 	public void show(){
 		
