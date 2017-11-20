@@ -1,8 +1,6 @@
 package com.briup.aop.service;
 
 
-import javax.annotation.Resource;
-
 import com.briup.aop.dao.AccountDao;
 import com.briup.aop.pojo.Account;
 
@@ -22,7 +20,6 @@ public class AccountServiceImpl implements IAccountService{
 		return accountDao;
 	}
 	
-	@Resource(name="dao")
 	public void setAccountDao(AccountDao accountDao) {
 		this.accountDao = accountDao;
 	}
