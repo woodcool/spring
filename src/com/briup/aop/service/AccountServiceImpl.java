@@ -20,6 +20,7 @@ public class AccountServiceImpl implements IAccountService{
 		return accountDao;
 	}
 	
+	
 	public void setAccountDao(AccountDao accountDao) {
 		this.accountDao = accountDao;
 	}
